@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10243b">
+  <meta name="description" content="Guardian Property Services provides dependable residential and commercial cleaning across Buffalo and Western New York. Request a cleaning estimate.">
+  <title>Guardian Property Services | Residential & Commercial Cleaning</title>
+  <style>
+    :root{--navy:#10243b;--navy2:#193653;--ink:#202b36;--muted:#66717c;--cream:#f5f3ee;--paper:#fff;--line:#e2e5e7;--gold:#b69c68;--gold-light:#d7c49a;--shadow:0 22px 60px rgba(16,36,59,.12);--radius:3px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65;background:#fff}a{color:inherit}.container{width:min(1160px,calc(100% - 44px));margin:auto}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;color:var(--gold);display:flex;align-items:center;gap:12px}.eyebrow:before{content:"";width:28px;height:1px;background:currentColor}h1,h2,h3,p{margin-top:0}h1,h2,.serif{font-family:Georgia,'Times New Roman',serif;font-weight:400}h1{font-size:clamp(48px,6.8vw,82px);line-height:1.02;letter-spacing:-.035em;margin:22px 0}h2{font-size:clamp(37px,4.5vw,58px);line-height:1.08;letter-spacing:-.025em;margin:14px 0 18px}h3{font-size:19px;line-height:1.25}.lead{font-size:18px;color:var(--muted);max-width:690px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border:1px solid var(--navy);background:var(--navy);color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:.09em;font-size:11px;font-weight:800;transition:.2s}.btn:hover{background:var(--navy2);transform:translateY(-1px)}.btn.light{background:transparent;border-color:rgba(255,255,255,.65);color:#fff}.btn.light:hover{background:#fff;color:var(--navy)}.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--navy)}.btn.gold:hover{background:var(--gold-light)}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid rgba(16,36,59,.09)}.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy);flex-shrink:0}.mark{width:43px;height:43px}.brand-name{display:flex;flex-direction:column;line-height:1}.brand-name strong{font: bold 23px Georgia,serif;letter-spacing:.12em;text-transform:uppercase}.brand-name small{font-size:8px;letter-spacing:.34em;text-transform:uppercase;margin-top:7px}.navlinks{display:flex;align-items:center;gap:24px}.navlinks>a:not(.btn){font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:800;text-decoration:none;color:#334252}.navlinks>a:not(.btn):hover{color:var(--gold)}.navlinks .btn{min-height:44px;padding:0 18px}.menu{display:none;background:none;border:1px solid var(--line);padding:10px 13px;color:var(--navy);font-weight:800}
+    .hero{position:relative;overflow:hidden;background:var(--navy);color:#fff;min-height:690px;display:flex;align-items:center}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,22,37,.98) 0%,rgba(8,22,37,.91) 47%,rgba(8,22,37,.55) 100%),radial-gradient(ellipse at 82% 28%,rgba(182,156,104,.28),transparent 34%),linear-gradient(135deg,#526b80,#142b45)}.hero:after{content:"";position:absolute;width:560px;height:560px;border:1px solid rgba(215,196,154,.22);border-radius:50%;right:-90px;top:50%;transform:translateY(-50%);box-shadow:0 0 0 45px rgba(215,196,154,.035),0 0 0 90px rgba(215,196,154,.025)}.hero-inner{position:relative;z-index:1;padding:100px 0;max-width:790px}.hero .eyebrow{color:var(--gold-light)}.hero h1 span{color:var(--gold-light)}.hero p{font-size:19px;color:rgba(255,255,255,.78);max-width:660px}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}.hero-note{margin-top:34px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.58)}
+    .proof{background:#0b1b2d;color:#fff}.proof-grid{display:grid;grid-template-columns:repeat(3,1fr)}.proof-item{padding:27px 30px;border-right:1px solid rgba(255,255,255,.13);display:flex;gap:16px;align-items:center}.proof-item:last-child{border:0}.proof-icon{width:34px;height:34px;border:1px solid rgba(215,196,154,.55);display:grid;place-items:center;color:var(--gold-light);font-size:17px;flex-shrink:0}.proof-item strong{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.13em}.proof-item small{color:rgba(255,255,255,.58);font-size:12px}
+    section.pad{padding:100px 0}.section-head{max-width:760px;margin:0 auto 52px;text-align:center}.section-head .eyebrow{justify-content:center}.section-head .eyebrow:after{content:"";width:28px;height:1px;background:currentColor}.section-head p{color:var(--muted);font-size:17px}.services{background:var(--cream)}.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.service-card{background:#fff;border:1px solid var(--line);padding:34px;min-height:255px;position:relative;box-shadow:0 5px 20px rgba(16,36,59,.025)}.service-card:before{content:"";position:absolute;left:0;top:0;width:3px;height:0;background:var(--gold);transition:.25s}.service-card:hover:before{height:100%}.service-number{font:32px Georgia,serif;color:var(--gold);margin-bottom:24px}.service-card h3{color:var(--navy);margin-bottom:10px}.service-card p{color:var(--muted);margin-bottom:0}.service-foot{margin:30px auto 0;text-align:center;color:var(--muted);font-size:13px;max-width:760px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.visual-panel{min-height:480px;background:linear-gradient(145deg,#d9d5ca,#f2f0e9 52%,#b7b2a6);position:relative;overflow:hidden;padding:34px;display:flex;align-items:flex-end}.visual-panel:before{content:"";position:absolute;inset:22px;border:1px solid rgba(16,36,59,.25)}.visual-panel:after{content:"G";position:absolute;right:5%;top:-17%;font:430px Georgia,serif;color:rgba(16,36,59,.075)}.visual-caption{position:relative;z-index:1;background:var(--navy);color:#fff;padding:25px 28px;max-width:300px}.visual-caption small{display:block;color:var(--gold-light);letter-spacing:.17em;text-transform:uppercase;font-size:9px;margin-bottom:8px}.visual-caption strong{font:24px Georgia,serif;font-weight:400}.check-list{list-style:none;padding:0;margin:28px 0}.check-list li{padding:13px 0 13px 30px;border-bottom:1px solid var(--line);position:relative;color:#4d5965}.check-list li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:800}.split-copy .btn{margin-top:10px}
+    .process{background:var(--navy);color:#fff}.process .section-head p{color:rgba(255,255,255,.65)}.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.process-card{padding:30px;border:1px solid rgba(255,255,255,.17)}.process-card .num{font:42px Georgia,serif;color:var(--gold-light);margin-bottom:25px}.process-card h3{margin-bottom:10px}.process-card p{color:rgba(255,255,255,.65);font-size:14px;margin:0}
+    .cta-band{background:var(--gold);color:var(--navy);padding:56px 0}.cta-inner{display:flex;justify-content:space-between;align-items:center;gap:35px}.cta-inner h2{font-size:clamp(30px,4vw,44px);margin:0 0 8px}.cta-inner p{margin:0;color:rgba(16,36,59,.78)}.cta-band .btn{background:var(--navy);border-color:var(--navy);white-space:nowrap}
+    .faq{background:var(--cream)}.faq-wrap{max-width:850px;margin:auto}.faq details{border-top:1px solid #d8d9d6;padding:22px 4px}.faq details:last-child{border-bottom:1px solid #d8d9d6}.faq summary{cursor:pointer;list-style:none;font-weight:800;color:var(--navy);display:flex;justify-content:space-between;gap:20px}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"+";font-size:20px;color:var(--gold)}.faq details[open] summary:after{content:"−"}.faq details p{color:var(--muted);margin:14px 35px 0 0}
+    .contact{background:#fff}.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:start}.contact-copy h2{color:var(--navy)}.contact-copy>p{color:var(--muted)}.contact-detail{display:flex;gap:15px;align-items:flex-start;margin:25px 0}.contact-detail .proof-icon{background:var(--navy);color:var(--gold-light)}.contact-detail strong{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--navy)}.contact-detail a,.contact-detail span{color:var(--muted);text-decoration:none}.contact-detail a:hover{color:var(--gold)}.quote-box{padding:36px;background:var(--cream);border:1px solid var(--line);box-shadow:var(--shadow)}.quote-box h3{font:28px Georgia,serif;color:var(--navy);font-weight:400;margin-bottom:8px}.quote-box>p{font-size:13px;color:var(--muted);margin-bottom:24px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:block;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#3d4a57}.field.full{grid-column:1/-1}.field input,.field select,.field textarea{display:block;width:100%;margin-top:7px;padding:13px 14px;border:1px solid #d7dcdf;background:#fff;color:var(--ink);font:14px Arial, sans-serif;border-radius:0}.field textarea{min-height:115px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid rgba(182,156,104,.4);border-color:var(--gold)}.quote-box button{margin-top:20px;cursor:pointer}.form-disclaimer{font-size:11px!important;color:#78818a!important;margin:13px 0 0!important}
+    footer{background:#081727;color:#fff;padding:58px 0 24px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:38px}.footer-brand p{max-width:320px;color:rgba(255,255,255,.58);font-size:13px;margin-top:20px}.footer-grid h4{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--gold-light);margin:8px 0 18px}.footer-grid a{display:block;text-decoration:none;color:rgba(255,255,255,.66);font-size:13px;margin:10px 0}.footer-grid a:hover{color:#fff}.footer-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:42px;padding-top:20px;display:flex;justify-content:space-between;gap:20px;color:rgba(255,255,255,.4);font-size:11px}.footer-bottom a{color:rgba(255,255,255,.55);text-decoration:none}
+    @media(max-width:900px){.navlinks{gap:14px}.navlinks>a:not(.btn){font-size:10px}.navlinks .btn{padding:0 12px}.split{gap:40px}.contact-grid{gap:35px}.footer-grid{grid-template-columns:2fr 1fr 1fr}.footer-grid>div:last-child{grid-column:2}}
+    @media(max-width:700px){.container{width:min(100% - 32px,1160px)}.nav{min-height:72px}.brand-name strong{font-size:20px}.brand-name small{font-size:7px}.mark{width:37px;height:37px}.menu{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:72px;background:#fff;padding:22px 24px 26px;box-shadow:0 15px 25px rgba(16,36,59,.12);align-items:stretch;flex-direction:column;gap:18px}.navlinks.open{display:flex}.navlinks>a:not(.btn){font-size:12px}.hero{min-height:620px}.hero-inner{padding:82px 0}.hero p{font-size:17px}.hero:after{right:-340px}.proof-grid{grid-template-columns:1fr}.proof-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.13);padding:20px 4px}.proof-item:last-child{border-bottom:0}section.pad{padding:75px 0}.service-grid,.split,.process-grid,.contact-grid{grid-template-columns:1fr}.service-card{min-height:0}.visual-panel{min-height:360px;order:2}.split-copy{order:1}.cta-inner{align-items:flex-start;flex-direction:column}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.quote-box{padding:25px 20px}.footer-grid{grid-template-columns:1fr 1fr;gap:25px}.footer-brand{grid-column:1/-1}.footer-grid>div:last-child{grid-column:auto}.footer-bottom{flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Guardian Property Services home">
+      <svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 8 102 31 83 42 60 29 34 44v31l26 15 18-10V68H58L43 77V57l17-10 42 24v25l-42 24-50-29V29z" fill="currentColor"/></svg>
+      <span class="brand-name"><strong>Guardian</strong><small>Property Services</small></span>
+    </a>
+    <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#process">How It Works</a><a href="#faq">FAQ</a><a href="#contact" class="btn">Request an Estimate</a>
+      <a href="https://members.guardianwny.com" target="_blank" rel="noopener">Member Login ↗</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="container"><div class="hero-inner">
+      <div class="eyebrow">Residential &amp; Commercial Cleaning · Western New York</div>
+      <h1>A cleaner space.<br><span>A higher standard.</span></h1>
+      <p>Dependable cleaning for the places where life and business happen. Guardian Property Services brings thoughtful service, consistent results, and clear communication to every property we care for.</p>
+      <div class="hero-actions"><a class="btn gold" href="#contact">Request a Free Estimate <span>→</span></a><a class="btn light" href="#services">Explore Our Services</a></div>
+      <div class="hero-note">Residential homes · Offices · Commercial properties · Buffalo &amp; surrounding communities</div>
+    </div></div>
+  </section>
+  <section class="proof"><div class="container proof-grid">
+    <div class="proof-item"><span class="proof-icon">✦</span><div><strong>Dependable service</strong><small>Clear expectations and reliable communication</small></div></div>
+    <div class="proof-item"><span class="proof-icon">✓</span><div><strong>Consistent standards</strong><small>Thoughtful attention to the details</small></div></div>
+    <div class="proof-item"><span class="proof-icon">⌂</span><div><strong>Locally focused</strong><small>Serving Buffalo and Western New York</small></div></div>
+  </div></section>
+  <section class="pad services" id="services"><div class="container">
+    <div class="section-head"><div class="eyebrow">What We Do</div><h2>Cleaning that fits your space<br>and your schedule.</h2><p>From keeping a home feeling fresh to maintaining a professional workplace, we build service around the property, priorities, and frequency you need.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><div class="service-number">01</div><h3>Recurring Residential Cleaning</h3><p>Regular home cleaning on a schedule that works for you. Keep everyday spaces tidy, comfortable, and ready to enjoy.</p></article>
+      <article class="service-card"><div class="service-number">02</div><h3>Deep Cleaning</h3><p>A more detailed clean for spaces that need extra attention, from built-up areas to the often-overlooked finishing details.</p></article>
+      <article class="service-card"><div class="service-number">03</div><h3>Move-In &amp; Move-Out Cleaning</h3><p>Prepare a property for its next chapter with a thorough clean designed around turnover, handoff, or move-in needs.</p></article>
+      <article class="service-card"><div class="service-number">04</div><h3>Commercial &amp; Office Cleaning</h3><p>Professional cleaning for offices and commercial spaces, with service frequency and scope tailored to your operation.</p></article>
+    </div>
+    <p class="service-foot">Have a unique property or a specific cleaning request? Tell us what you need. We’ll discuss the scope and determine whether it’s a good fit.</p>
+  </div></section>
+  <section class="pad" id="approach"><div class="container split">
+    <div class="visual-panel"><div class="visual-caption"><small>The Guardian Difference</small><strong>Professional care.<br>Personal attention.</strong></div></div>
+    <div class="split-copy"><div class="eyebrow">The Guardian Approach</div><h2>Professional service should feel simple.</h2><p class="lead">A clean property is about more than appearance. It’s about trust, consistency, and knowing the details are being taken care of.</p>
+      <ul class="check-list"><li>A clear conversation about your space and priorities</li><li>A defined cleaning scope before work begins</li><li>Scheduling built around your home or business</li><li>Open communication if needs or priorities change</li><li>Attention to the details that make a difference</li></ul>
+      <a class="btn" href="#contact">Talk With Guardian →</a>
+    </div>
+  </div></section>
+  <section class="pad process" id="process"><div class="container">
+    <div class="section-head"><div class="eyebrow">A Straightforward Process</div><h2>From first conversation<br>to a space you love.</h2><p>We make it easy to understand what’s included, what it costs, and what happens next.</p></div>
+    <div class="process-grid">
+      <article class="process-card"><div class="num">01</div><h3>Tell us about your space</h3><p>Share the property type, approximate size, cleaning needs, and preferred schedule.</p></article>
+      <article class="process-card"><div class="num">02</div><h3>Get a tailored estimate</h3><p>We’ll review the details with you and clarify the service scope and pricing before scheduling.</p></article>
+      <article class="process-card"><div class="num">03</div><h3>Enjoy a cleaner property</h3><p>Once the details are confirmed, we’ll arrange your service and keep communication clear.</p></article>
+    </div>
+  </div></section>
+  <section class="cta-band"><div class="container cta-inner"><div><h2>Ready for a better kind of clean?</h2><p>Let’s talk about what your property needs.</p></div><a class="btn" href="#contact">Get Your Estimate →</a></div></section>
+  <section class="pad faq" id="faq"><div class="container faq-wrap">
+    <div class="section-head"><div class="eyebrow">Good to Know</div><h2>Frequently asked questions.</h2><p>Have a question that isn’t covered here? Get in touch and we’ll be happy to talk it through.</p></div>
+    <details><summary>Do you clean both homes and businesses?</summary><p>Yes. Guardian is focused on residential and commercial cleaning. Tell us about your property and the type of service you’re looking for.</p></details>
+    <details><summary>Can I set up recurring cleaning?</summary><p>Yes. We can discuss recurring service and a schedule that fits your property and priorities.</p></details>
+    <details><summary>Do you offer deep cleans and move-out cleans?</summary><p>Yes. Deep cleaning and move-in or move-out cleaning are among the services you can request an estimate for.</p></details>
+    <details><summary>How do you price a cleaning?</summary><p>Pricing depends on factors such as property size, condition, service type, requested tasks, and frequency. We’ll discuss the scope before providing an estimate.</p></details>
+    <details><summary>What areas do you serve?</summary><p>Guardian is based in the Buffalo and Western New York area. Contact us with your property location so we can confirm service availability.</p></details>
+    <details><summary>How do I get started?</summary><p>Use the estimate form below or contact us by phone or email. We’ll follow up to learn more about your needs.</p></details>
+  </div></section>
+  <section class="pad contact" id="contact"><div class="container contact-grid">
+    <div class="contact-copy"><div class="eyebrow">Start a Conversation</div><h2>Let’s make your property feel its best.</h2><p class="lead">Tell us a little about the space and the service you have in mind. We’ll follow up to discuss the details and next steps.</p>
+      <div class="contact-detail"><span class="proof-icon">☎</span><div><strong>Call Guardian</strong><a href="tel:+17163905836">716-390-5836</a></div></div>
+      <div class="contact-detail"><span class="proof-icon">✉</span><div><strong>Email</strong><a href="mailto:guardianpservices@gmail.com">guardianpservices@gmail.com</a></div></div>
+      <div class="contact-detail"><span class="proof-icon">⌖</span><div><strong>Service Area</strong><span>Buffalo &amp; Western New York</span></div></div>
+      <p style="font-size:12px;color:#7b858e;margin-top:30px">Existing customers can access their account through the <a href="https://members.guardianwny.com" style="color:var(--navy);font-weight:700">Guardian Member Portal</a>.</p>
+    </div>
+    <div class="quote-box"><h3>Request a cleaning estimate</h3><p>Complete the details below. Your email app will open with your request ready to send.</p>
+      <form id="estimate-form">
+        <div class="form-grid">
+          <label class="field">Full name *<input name="name" autocomplete="name" required></label>
+          <label class="field">Phone number *<input name="phone" type="tel" autocomplete="tel" required></label>
+          <label class="field">Email address *<input name="email" type="email" autocomplete="email" required></label>
+          <label class="field">Property type<select name="property"><option>Residential home</option><option>Apartment / rental</option><option>Office</option><option>Commercial property</option><option>Other</option></select></label>
+          <label class="field">Service needed<select name="service"><option>Recurring residential cleaning</option><option>Deep cleaning</option><option>Move-in / move-out cleaning</option><option>Commercial / office cleaning</option><option>Not sure yet</option></select></label>
+          <label class="field">Preferred frequency<select name="frequency"><option>One-time</option><option>Weekly</option><option>Every two weeks</option><option>Monthly</option><option>Flexible / discuss</option></select></label>
+          <label class="field full">Property location<input name="location" autocomplete="street-address" placeholder="City or ZIP code"></label>
+          <label class="field full">Tell us about the property and what you need<textarea name="details" placeholder="Approximate size, number of rooms, priorities, preferred timing, or anything else helpful."></textarea></label>
+        </div>
+        <button class="btn" type="submit">Prepare My Estimate Request →</button>
+        <p class="form-disclaimer">This form prepares an email on your device; it does not submit automatically. If your email app does not open, call or email Guardian directly.</p>
+      </form>
+    </div>
+  </div></section>
+</main>
+<footer><div class="container">
+  <div class="footer-grid">
+    <div class="footer-brand"><a class="brand" href="#top" style="color:#fff"><svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 8 102 31 83 42 60 29 34 44v31l26 15 18-10V68H58L43 77V57l17-10 42 24v25l-42 24-50-29V29z" fill="currentColor"/></svg><span class="brand-name"><strong>Guardian</strong><small>Property Services</small></span></a><p>Thoughtful residential and commercial cleaning for Buffalo and Western New York.</p></div>
+    <div><h4>Services</h4><a href="#services">Residential Cleaning</a><a href="#services">Deep Cleaning</a><a href="#services">Move-In / Move-Out</a><a href="#services">Commercial Cleaning</a></div>
+    <div><h4>Company</h4><a href="#approach">Our Approach</a><a href="#process">How It Works</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+    <div><h4>Customers</h4><a href="https://members.guardianwny.com">Member Login</a><a href="tel:+17163905836">716-390-5836</a><a href="mailto:guardianpservices@gmail.com">Email Guardian</a></div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> Guardian Property Services. All rights reserved.</span><span>Buffalo, New York · Western New York</span></div>
+</div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const menu = document.querySelector('.menu');
+  const nav = document.getElementById('navlinks');
+  menu.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); });
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { nav.classList.remove('open'); menu.setAttribute('aria-expanded','false'); }));
+  document.getElementById('estimate-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const fields = ['name','phone','email','property','service','frequency','location','details'];
+    const labels = {name:'Name',phone:'Phone',email:'Email',property:'Property type',service:'Service requested',frequency:'Preferred frequency',location:'Property location',details:'Property details'};
+    const body = fields.map(key => `${labels[key]}: ${String(data.get(key) || '').trim() || 'Not provided'}`).join('\n');
+    const subject = `Cleaning estimate request — ${String(data.get('name')).trim()}`;
+    window.location.href = `mailto:guardianpservices@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });
+</script>
+</body>
+</html>
